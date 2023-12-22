@@ -4,6 +4,7 @@ body, html {
   margin: 0;
   padding: 0;
   background-color: black;
+  color: white;
 }
 
 .navbar {
@@ -13,10 +14,9 @@ body, html {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   display: flex;
-  justify-content: space-between; 
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
 }
 
@@ -26,7 +26,7 @@ ul li {
 }
 
 ul li.name {
-  margin-right: auto; 
+  margin-right: auto;
   padding-left: 15px;
   letter-spacing: 3px;
   font-size: 18px;
@@ -40,7 +40,17 @@ ul li a {
 }
 
 .hero-img {
-  background-image: url("images/shubham-dhage-0aQ1lxP0wTs-unsplash.jpg");
+  background-image: url("shubham-dhage-0aQ1lxP0wTs-unsplash.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0%;
+}
+
+.hero-img2 {
+  background-image: url("milad-fakurian-DjjaZybYx4I-unsplash.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,12 +80,12 @@ ul li a {
   margin-top: 20px;
   padding: 8px;
   background-color: yellow;
-  font-size: 16px;
   border: none;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
   font-weight: 200;
+  display: inline-block; /* Ensure the button is treated as an inline element */
 }
 
 .button button:hover {
@@ -85,4 +95,98 @@ ul li a {
 ul li a:hover {
   text-decoration: underline;
   color: yellow;
+}
+
+.content {
+  text-align: center;
+  margin-top: 60px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  display: block; 
+  margin: 0 auto; 
+  width: 105%;
+  margin-top: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap; 
+  line-height: 25px;
+}
+
+.projects-container a {
+  color: yellow;
+}
+
+.projects-container a:hover {
+  color: white;
+}
+.projects-container h2 {
+  text-decoration: underline;
+  font-size: 27px;
+}
+.project {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+}
+.projects {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.projects p{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.projects a {
+  color: yellow;
+}
+
+.projects a:hover {
+  color: white;
+}
+hr {
+  margin-top: 0; 
+    margin-bottom: 20px; 
+    border: 0;
+    border-top: 1px solid #ddd;
 }
