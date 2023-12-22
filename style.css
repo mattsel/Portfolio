@@ -1,3 +1,5 @@
+/* Add your existing styles here */
+
 body, html {
   height: 100%;
   font-family: 'League Spartan', sans-serif;
@@ -153,10 +155,12 @@ h1 {
 .projects-container a:hover {
   color: white;
 }
+
 .projects-container h2 {
   text-decoration: underline;
   font-size: 27px;
 }
+
 .project {
   flex: 1;
   max-width: 300px;
@@ -166,13 +170,14 @@ h1 {
   margin: 10px;
   text-align: center;
 }
+
 .projects {
   color: white;
   text-align: center;
   margin-top: 20px;
 }
 
-.projects p{
+.projects p {
   font-size: 30px;
   font-weight: 400;
 }
@@ -184,9 +189,71 @@ h1 {
 .projects a:hover {
   color: white;
 }
+
 hr {
   margin-top: 0; 
-    margin-bottom: 20px; 
-    border: 0;
-    border-top: 1px solid #ddd;
+  margin-bottom: 20px; 
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.photo-text {
+  border: 2px solid white;
+  margin-right: 220px;
+  margin-left: 220px;
+  line-height: 30px;
+}
+
+.photo-text p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.photo img {
+  border: 2px solid white;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 17%;
+  margin-bottom: 50px; 
+
+}
+
+.photo p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-top: -360px; 
+  margin-bottom: 20px;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.link-item img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.link-item p a {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+.link-item p a:hover {
+ color: yellow;
+}
+.links p b {
+  font-size: 30px;
+  margin-left: 70px;
+  text-decoration: underline;
 }
