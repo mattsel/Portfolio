@@ -1,0 +1,321 @@
+body, html {
+    height: 100%;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+    justify-content: flex-end;
+    width: 100%; /* Add this line to make the navbar full width */
+  }
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  ul li {
+    margin-right: 15px;
+    color: white;
+  }
+  
+  ul li.name {
+    margin-right: auto;
+    padding-left: 15px;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .hero-img {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+  }
+  .home-hero {
+    background-image: url("shubham-dhage-0aQ1lxP0wTs-unsplash.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+  }
+  
+  .hero-img2 {
+    background-image: url("milad-fakurian-DjjaZybYx4I-unsplash.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+  }
+  
+  .hero-text {
+    color: white;
+    margin-left: 190px;
+    margin-top: 175px;
+  }
+  
+  .hero-text p {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text .line p {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .hero-text .button button {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: yellow;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 200;
+    display: inline-block; /* Ensure the button is treated as an inline element */
+  }
+  
+  .button button:hover {
+    cursor: pointer;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+    color: yellow;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  form input[type="submit"] {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+    width: 105%;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap; 
+    line-height: 25px;
+  }
+  
+  .projects-container a {
+    color: yellow;
+  }
+  
+  .projects-container a:hover {
+    color: white;
+  }
+  
+  .projects-container h2 {
+    text-decoration: underline;
+    font-size: 27px;
+  }
+  
+  .project {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .projects {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .projects p {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .projects a {
+    color: yellow;
+  }
+  
+  .projects a:hover {
+    color: white;
+  }
+  
+  hr {
+    margin-top: 0; 
+    margin-bottom: 20px; 
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .photo-text {
+    border: 2px solid white;
+    margin-right: 220px;
+    margin-left: 220px;
+    line-height: 30px;
+  }
+  
+  .photo-text p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .photo img {
+    border: 2px solid white;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 17%;
+    margin-bottom: 50px; 
+  }
+  .pdf {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .pdf iframe {
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .photo p {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: -360px; 
+    margin-bottom: 20px;
+  }
+  
+  .link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .link-item img {
+    width: 70px;
+    margin-right: 10px;
+  }
+  
+  .link-item p a {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+  }
+  .link-item p a:hover {
+   color: yellow;
+  }
+  .links p b {
+    font-size: 30px;
+    margin-left: 70px;
+    text-decoration: underline;
+  }
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .section {
+    margin-top: 60px; 
+  }
+  #resume p {
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .home-hero .hero-text {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s;
+}
+  .home-hero .hero-text.slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+  .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin to your preference */
+}
+
+  .image img {
+  max-width: 100%;
+  height: auto;
+}
