@@ -17,7 +17,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="#resume-container">Resume</a></li>
             <li><a href="#about">About</a></li>
         </ul>
     </div>
@@ -25,7 +25,7 @@
         <div class="hero-text">
             <p>Hello,</p>
             <div class="line"><p>I'm Matt, An Aspiring Software Engineer.</p></div>
-            <div class="line"><p>Please Check Out My Projects and Contact Me.</p></div>
+            <div class="line"><p>Please Check Out My Projects and Contact Me!</p></div>
             <div class="button"><a href="#contact"><button>Contact Me</button></a></div>
         </div>
     </div>
@@ -36,12 +36,11 @@
             </div>
         
             <div class="projects-container">
-                <!-- Project 1 -->
+
                 <div class="project" id="bankingProject">
                     <h2>Banking Infrastructure</h2>
                     <p>Overview: The broad goal of this project is to implement a basic banking system. This system will allow a user to login using an email and password, which will be stored in a database in an encrypted version via salting. This is an important topic to understand because it is the foundation of cyber security for websites handling a consumer's private information. When a user logs in with a previously stored account, it will log in and allow them to choose some of the various actions, deposit, withdraw, or check their balance associated with their account details. All of this is done with error handling in mind to make a seamless application for the consumer to use.</p>
                     
-                    <!-- Add the video container here, between the summary and link -->
                     <div class="video-container">
                         <video autoplay muted loop>
                             <source src="computer_display.mp4" type="video/mp4">
@@ -51,12 +50,11 @@
                     
                     <a href="https://github.com/mattsel/Banking-System/blob/main/README.md">README.md</a>
                 </div>
-                <!-- Project 2 -->
+
                 <div class="project" id="passwordProject">
                     <h2>Password Strength Test/Encryption</h2>
-                    <p>Overview: Create a program that can run several tests to ensure not only a valid password is entered, but also grade the strength of the password in regards to its content. The overall goal for this project to to create a system that can help the user ensure that their password is safe from being vulnerable to brute force from common passwords such as. (i.e. birthdays, first/last name, etc.) Another feature of this program is that it can also allow the user to encrypt their password to further ensure its strength.</p>
+                    <p>Overview: Create a program that can run several tests to ensure not only a valid password is entered, but also grade the strength of the password in regards to its content. The overall goal for this project to to create a system that can help the user ensure that their password is safe from being vulnerable to brute force from common passwords such as. (i.e. birthdays, first/last name, etc.) Another feature of this program is that it can also allow the user to encrypt their password to further ensure its strength. Create a program to check and strengthen passwords, safeguarding against common vulnerabilities, and offering optional encryption for added security.</p>
                 
-                    <!-- Add the video container here, between the summary and link -->
                     <div class="video-container">
                         <video autoplay muted loop>
                             <source src="Comp 1 1.mp4" type="video/mp4">
@@ -68,9 +66,8 @@
     
             <div class="project" id="portfolioProject">
                 <h2>This Portfolio</h2>
-                <p>Overview: The purpose of this project was to help me diversify my knowledge in the realm of frontend engineering. I wanted to create this project to not only showcase some of my recent works, but to allow me to test the waters with other languages aswell. I find it crucial to be a well rounded in various fields of software engineering to be considered a valuable asset. As I continue to progress in my computer science career, I am always finding new ways to learn more and diversity my knownledge to the best of my ability. In this project I have utilized both html and css to make an appealing website to showcase some of my works and allow others to learn more about me via resume, projects, and about page</p>
+                <p>Overview: The purpose of this project was to help me diversify my knowledge in the realm of frontend engineering. I wanted to create this portfolio to not only showcase some of my recent works, but to allow me to test the waters with other languages aswell. I find it crucial to be a well rounded in various fields of software engineering to be considered a valuable asset. As I continue to progress in my computer science career, I am always finding new ways to learn more and diversity my knownledge to the best of my ability. In this project I have utilized both html and css to make an appealing website to showcase some of my works and allow others to learn more about me via resume, projects, and about page</p>
             
-                <!-- Add the video container here, between the summary and link -->
                 <div class="video-container">
                     <video autoplay muted loop>
                         <source src="project3.mp4" type="video/mp4">
@@ -102,38 +99,55 @@
                 </form>
             </div>
         </div>
+        <h1> Resume</h1>
     </div>
 
-    <div id="resume" class="section">
-        <p>Resume</p>
+    <div id="resume-container" class="section">
+        <div class="image" id="image-left">
+            <img src="Untitled-1.png" alt="Left Image">
+        </div>
+
+        <div class="pdf">
+            <embed src="temp_resume.pdf#toolbar=0&navpanes=0&scrollbar=0" style="width:595pt; height: 100vh; display: block;">
+        </div>
+
+        <div class="image" id="image-right">
+            <img src="right_image.jpg" alt="Right Image">
+        </div>
+
     </div>
-    <div class="pdf">
-        <embed src="temp_resume.pdf#toolbar=0&navpanes=0&scrollbar=0" style="width:595pt; margin: 0 auto; height: 100vh; display: block;">
-    </div>
+
     <div id="about" class="section">
+
         <div class="photo">
             <p><strong>About Me</strong></p>
             <img src="UCI-Merage-Students-92-e1634331825132.jpeg" alt="headshot">
         </div>
+
         <div class="links">
             <p><b>Connect With Me Here:</b></p>
+
             <div class="link-item">
                 <img src="mail.png" alt="gmail">
                 <p><a href="mailto:matt.sel04@gmail.com">matt.sel04@gmail.com</a> & <a href="mailto:mns88@drexel.edu">mns88@drexel.edu</a</p>
             </div>
+
             <div class="link-item">
                 <img src="linkedin.png" alt="linkedin">
                 <p><a href="https://www.linkedin.com/in/matthew-selvaggi-a61336273/">@Matthew Selvaggi</a></p>
             </div>
+
             <div class="link-item">
                 <img src="github.png" alt="github">
                 <p><a href="https://github.com/mattsel">@mattsel</a></p>
             </div>
+
             <div class="link-item">
                 <img src="phone.png" alt="phone">
                 <p><a href="tel:+2674084521">(267)-408-4521</a></p>
             </div>
         </div>
+        
         <div class="photo-text">
             <div>
                 <hr>
@@ -150,70 +164,53 @@
         <br>
         <br>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
-        $(document).ready(function () {
-            // Function to check if an element is in the viewport
-            function isElementInViewport(el) {
-                var rect = el.getBoundingClientRect();
-                return (
-                    rect.top >= 0 &&
-                    rect.left >= 0 &&
-                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-                );
+       $(document).ready(function () {
+    function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetElement = document.querySelector(this.getAttribute('href'));
+            if (targetElement) {
+                var offset = targetElement.offsetTop - $('.navbar').height();
+                $('html, body').stop().animate({
+                    scrollTop: offset
+                }, 500);
             }
-
-            // Function to handle animations
-            function handleAnimations() {
-                var heroText = $('.home-hero .hero-text');
-
-                if (isElementInViewport(heroText[0])) {
-                    heroText.addClass('slide-in');
-                } else {
-                    heroText.removeClass('slide-in');
-                }
-            }
-
-            // Smooth scrolling for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-
-                    const targetElement = document.querySelector(this.getAttribute('href'));
-                    if (targetElement) {
-                        // Adjust the offset to ensure the entire "hello" part is visible
-                        var offset = targetElement.offsetTop - $('.navbar').height();
-                        $('html, body').stop().animate({
-                            scrollTop: offset
-                        }, 500);
-                    }
-                });
-            });
-
-            // Function to handle video playback
-            function handleVideoPlayback() {
-                var videoSection = $('#bankingProject .video-container');
-
-                if (isElementInViewport(videoSection[0])) {
-                    // Play the video when it comes into view
-                    videoSection.find('video')[0].play();
-                } else {
-                    // Pause the video when it goes out of view
-                    videoSection.find('video')[0].pause();
-                }
-            }
-
-            // Call the video playback function on scroll
-            $(window).scroll(function () {
-                handleAnimations();
-                handleVideoPlayback();
-            });
-
-            // Initial check on page load
-            handleAnimations();
-            handleVideoPlayback();
         });
+    });
+
+    function handleVideoPlayback() {
+        var videoSection = $('#bankingProject .video-container');
+
+        if (isElementInViewport(videoSection[0])) {
+            videoSection.find('video')[0].play();
+        } else {
+            videoSection.find('video')[0].pause();
+        }
+    }
+
+    $(window).scroll(function () {
+        handleAnimations();
+        handleVideoPlayback();
+    });
+
+    handleAnimations();
+    handleVideoPlayback();
+});
+
     </script>
 </body>
 </html>
