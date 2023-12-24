@@ -52,7 +52,7 @@ body, html {
     margin: 0%;
   }
   .home-hero {
-    background-image: url("shubham-dhage-0aQ1lxP0wTs-unsplash.jpg");
+    background-image: url("images/hero.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -317,4 +317,8 @@ body, html {
 .image img {
   width: 150%;
   height: auto;
+}
+#image-right {
+  margin-right: 200px;
+  margin-bottom: 20px;
 }
